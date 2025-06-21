@@ -1,6 +1,6 @@
 # Crie um programa que leia vários números inteiros pelo teclado.
 # O programa só vai parar quando o usuário digitar o valor 999, qie é a condição da parada.
-# No final mostre quantos números foram digitados e qual foi a soma entre eles. (desconsiderando o flag)
+# No final mostre quantos números foram digitados e qual foi a soma_par entre eles. (desconsiderando o flag)
 n1 = 0
 contador = 0
 soma = 0

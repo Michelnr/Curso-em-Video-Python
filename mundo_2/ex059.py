@@ -1,5 +1,5 @@
 # Crie um programa que leia dois valores e mostre um menu na tela:
-# [1] soma
+# [1] soma_par
 # [2] multiplicação
 # [3] maior
 # [4] novos números

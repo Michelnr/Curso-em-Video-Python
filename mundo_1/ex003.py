@@ -5,4 +5,4 @@
 
 s1 = int(input('Primeiro n1 '))
 s2 = int(input('Segundo n1 '))
-print('A soma é:',s1+s2)
+print('A soma_par é:',s1+s2)

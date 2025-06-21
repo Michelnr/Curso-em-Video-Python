@@ -1,4 +1,4 @@
-# desenvolva um programa que leia seis numero inteiros e mostre a soma apenas
+# desenvolva um programa que leia seis numero inteiros e mostre a soma_par apenas
 # daqueles que forem pares. se o valor digitado for impar, desconsidere-o.
 soma = 0
 for repet in range(1, 7):
