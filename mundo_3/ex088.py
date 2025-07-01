@@ -4,7 +4,7 @@ from random import randint
 
 lista_jogos = []
 
-numero_jogos = 5 #int(input('Quantos numero_jogos de seja jogar? '))
+numero_jogos = int(input('Quantos numero_jogos de seja jogar? '))
 
 while True:
     jogo = []
