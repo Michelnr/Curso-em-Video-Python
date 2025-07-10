@@ -19,4 +19,4 @@ while True:
 
 print('---' * 15)
 for n in notas:
-    print(f'Nome: {n} ---- Nota: {notas[n]:.2f})
+    print(f'Nome: {n} ----> Nota: {notas[n]:.2f}')
