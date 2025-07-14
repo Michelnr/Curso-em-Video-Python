@@ -3,7 +3,7 @@
 notas = {}
 
 while True:
-    print('Deseja sair? escreva "S" no lugar do nome.')
+    print('DESEJA SAIR? escreva "S" no lugar do nome.')
     nome = str(input('Informe o nome do aluno: ')).title()
     
     if nome == 'S':
@@ -12,8 +12,8 @@ while True:
     nota_1 = int(input('Informe a 1º notas: '))
     nota_2 = int(input('Informe a 2º notas: '))
 
-    def media(nota_1, nota_2):
-        return (nota_1 + nota_2) / 2
+    def media(n1, n2):
+        return (n1 + n2) / 2
 
     notas[nome] = media(nota_1, nota_2)
 
