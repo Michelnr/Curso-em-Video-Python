@@ -10,8 +10,7 @@ resultados = {}
 j = 0
 while j < 4:
     j += 1
-    resultados[f'Jogador-{j}'] = randint(1,6)
+    resultados[f'Jogador-{j}'] = randint(1,10)
 
 # No final, coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
-for range(:4):
-    print(i)
+print(resultados.values)
