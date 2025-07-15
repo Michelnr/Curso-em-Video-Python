@@ -12,5 +12,5 @@ while j < 4:
     j += 1
     resultados[f'Jogador-{j}'] = randint(1,10)
 
+
 # No final, coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
-print(resultados)
