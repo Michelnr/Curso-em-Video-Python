@@ -14,3 +14,5 @@ while j < 4:
 
 
 # No final, coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
+
+####### ASSISTIR A AULA #########
