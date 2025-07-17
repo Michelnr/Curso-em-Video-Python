@@ -1,4 +1,5 @@
-# Exercício Python 090: Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela.
+# Exercício Python 090: Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. 
+# No final, mostre o conteúdo da estrutura na tela.
 
 notas = {}
 
@@ -19,5 +20,10 @@ while True:
 
 print('---' * 15)
 for n in notas:
-    print(f'Nome: {n} ----> Nota: {notas[n]:.2f}')
+    if notas[n] > 7:
+        print(f'Nome: {n} ----> Nota: {notas[n]:.2f} ----> APROVADO')
+    elif 5 < notas[n] < 7:
+        print(f'Nome: {n} ----> Nota: {notas[n]:.2f} ----> RECUPERAÇÃO')
+    else:
+        print(f'Nome: {n} ----> Nota: {notas[n]:.2f} ----> REPROVADO')
 print('---' * 15)
