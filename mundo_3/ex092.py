@@ -7,3 +7,6 @@ carteira_ctps = int(input('Informe o numero da CTPS'))
 
 
 # Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar.
+
+
+####### ASSISTIR A AULA #########
