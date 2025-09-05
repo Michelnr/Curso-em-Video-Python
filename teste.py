@@ -1,8 +1,8 @@
 from datetime import datetime
 data_informata = 1986
 
-data = datetime.now()
+data_hoje = datetime.now()
 
-idade = data.year - data_informata
+idade = data_hoje.year - data_informata
 
 print(idade)
