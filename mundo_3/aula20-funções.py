@@ -19,9 +19,12 @@ def contador(*num):
     print('FIM')
 
 mostrarLinha()
+
 mensagem('Sistema de Alunos')
+
 soma(2, 3)
 soma(a=2, b=3)
+
 contador(5, 7, 1)
 contador(4, 9, 1, 5, 3)
 contador(7, 9, 5, 8, 4, 7, 3, 9)
