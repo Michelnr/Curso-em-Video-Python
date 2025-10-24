@@ -15,7 +15,8 @@ def soma(a, b):
     print(f'Soma de A + B = {s}')
 
 def contador(*num):
-
+    print(num, end=' ')
+    print('FIM')
 
 mostrarLinha()
 mensagem('Sistema de Alunos')
