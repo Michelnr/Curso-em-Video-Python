@@ -12,5 +12,5 @@ def escrita(palavra):
     print('|',palavra,'|')
     print('~'*tam)
 
-texto = input('Escreva a plavra: ')
+texto = input('Escreva a plavra: ').title().strip()
 escrita(texto)
