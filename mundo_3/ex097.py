@@ -2,9 +2,9 @@
 Ex:
 escreva(‘Olá, Mundo!’) 
 Saída:
- ~~~~~~~~~
+~~~~~~~~~~~
 Ola, Mundo!
- ~~~~~~~~~'''
+~~~~~~~~~~~'''
 
 def escrita(palavra):
     tam = len(palavra) + 4
@@ -12,5 +12,5 @@ def escrita(palavra):
     print('|',palavra,'|')
     print('~'*tam)
 
-texto = input('Escreva a plavra: ').title().strip()
+texto = input('Escreva a palavra: ').title().strip()
 escrita(texto)

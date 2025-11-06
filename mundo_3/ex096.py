@@ -2,8 +2,8 @@
 que receba as dimensões de um terreno retangular (largura e comprimento) e mostre a área do terreno.'''
 
 def area(lar, com):
-    area = com * lar
-    print(f'A área do terreno {lar}m² X {com}m² é {area}m².')
+    areaterreno = com * lar
+    print(f'A área do terreno {lar}m² X {com}m² é {areaterreno}m².')
 
 largura = float(input('Informe a largura do terreno (m²): '))
 comprimento = float(input('Informe o comprimento do terreno (m²): '))
