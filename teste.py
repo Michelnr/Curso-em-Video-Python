@@ -1,1 +1,3 @@
-print(30*'-')
+from datetime import datetime
+
+print(datetime.now().year)
