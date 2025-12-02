@@ -21,27 +21,30 @@ def fatorial(num, show=False):
             
         if show == True:
             print(20*'=-=')
-            print(f'{valor}! -> {valor} X', end=' ')
+            print(f'Fatorial de {valor}! -> {valor} X', end=' ')
             for p in range(1, valor):
                 print(valor-p, end=' ')
-                if p == 1:
+                if valor-p != 1:
                     print('X', end=' ')
-            print(f'\n'+20*'=-=')
+            print(f'= {soma}')
+            print(20*'=-=')
 
 
     if valor < 2:
-        soma = 1
         print(20*'=-=')
-        print(soma)
+        print(f'Fatorial de {valor}! -> 1')
         print(20*'=-=')
 
-#while True:
-    #valor_calculo = 5 #int(input('informe o valor para calculo de fatorial: '))
-    #menu_calculo = 'S' #input('Deseja mostrar o calculo? (S/N) ').upper().strip()
-    #if len(menu_calculo) == 1 and 'S' in menu_calculo or len(menu_calculo) == 1 and 'N' in menu_calculo:
-    #    if menu_calculo == 'S':
-    #        mostrar_calculo = True
-    #        break # This line was causing the "expected an indented block" error
-    #    break
+while True:
+    valor_calculo = int(input('informe o valor para calculo de fatorial: '))
+    if valor_calculo != int:
+        print('Por Favor, informe um valor válido.')
+        continue
+    mostrar_calculo = input('Deseja mostrar o calculo? (S/N) ').upper().strip()
+    if mostrar_calculo not in 'SN' or len(mostrar_calculo) > 1:
+        print('Por Favor, informe uma opção válida. (S/N)')
+        continue
+    if mostrar_calculo == 'S':
+        mostrar_calculo = True    
 
-fatorial(5, True)
+fatorial(valor_calculo, mostrar_calculo)
