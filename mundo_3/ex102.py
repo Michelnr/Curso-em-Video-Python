@@ -28,6 +28,10 @@ def fatorial(num, show=False):
                     print('X', end=' ')
             print(f'= {soma}')
             print(20*'=-=')
+        else:
+            print(20*'=-=')
+            print(f'Fatorial de {valor}! -> {soma}')
+            print(20*'=-=')
 
 
     if valor < 2:
@@ -37,7 +41,7 @@ def fatorial(num, show=False):
 
 while True:
     valor_calculo = int(input('informe o valor para calculo de fatorial: '))
-    if valor_calculo != int:
+    if type(valor_calculo) != int:
         print('Por Favor, informe um valor válido.')
         continue
     mostrar_calculo = input('Deseja mostrar o calculo? (S/N) ').upper().strip()
@@ -46,5 +50,8 @@ while True:
         continue
     if mostrar_calculo == 'S':
         mostrar_calculo = True    
-
+        break
+    else:
+        mostrar_calculo = False
+        break
 fatorial(valor_calculo, mostrar_calculo)
