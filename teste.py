@@ -1,0 +1,1 @@
+print('\033[31mERRO! Digite um número válido\033[0m')
