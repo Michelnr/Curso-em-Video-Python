@@ -6,6 +6,14 @@
 # - A situação (opcional)
 
 def notas(*valor_notas, sit=False):
+    '''
+    -> Pode ser informada varias notas e o programa vai verificar:
+    1 - quantas notas foram informadas
+    2 - qual a maior nota
+    3 - Qual a menor nota
+    4 - Qual a media das notas
+    sit = Qual a situação do aluno
+    '''
     cad_notas = {}
     cad_notas['Total'] = len(valor_notas)
     cad_notas['Maior'] = max(valor_notas)
