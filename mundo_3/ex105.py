@@ -12,7 +12,10 @@ def notas(*valor_notas, sit=False):
     2 - qual a maior nota
     3 - Qual a menor nota
     4 - Qual a media das notas
-    sit = Qual a situação do aluno
+    sit = Informa a situação do aluno
+    Excelente = 8 a 10
+    Boa = 5 a 7
+    Ruim = 0 a 4
     '''
     cad_notas = {}
     cad_notas['Total'] = len(valor_notas)
@@ -21,9 +24,9 @@ def notas(*valor_notas, sit=False):
     cad_notas['Media'] = sum(valor_notas)/len(valor_notas)
     
     if sit == True:
-        if 7 <= cad_notas['Media'] < 10:
+        if 8 <= cad_notas['Media'] < 10:
             cad_notas['Situação'] = 'Excelente'
-        elif 5 <= cad_notas['Media'] < 7:
+        elif 5 <= cad_notas['Media'] < 8:
             cad_notas['Situação'] = 'BOA'
         else:
             cad_notas['Situação'] = 'RUIM'
