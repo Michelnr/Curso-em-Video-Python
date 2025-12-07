@@ -1,5 +1,5 @@
-from funcoes import fatorial
+from modulos import numeros
 
 num = int(input('Digite um valor: '))
-fat = fatorial(num)
+numeros.
 print(f'O fatorial de {num} é {fat}')
