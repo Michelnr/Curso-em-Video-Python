@@ -3,7 +3,7 @@
 # dessas funções.
 from modulos import numeros
 
-valor_moeda = int(input('Informe o valor: R$'))
+valor_moeda = float(input('Informe o valor: R$'))
 
 # aumento o valor em 10%
 print(f'R${valor_moeda} + 10% = R${numeros.aumentar10(valor_moeda):.2f}')

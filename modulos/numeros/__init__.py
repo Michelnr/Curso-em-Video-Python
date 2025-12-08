@@ -1,3 +1,6 @@
+from mundo_3.ex108 import valor_moeda
+
+
 def aumentar10(valor_moeda_def):
     '''
     -- Recebe o valor e retorna o valor com mais 10%
@@ -42,3 +45,6 @@ def fatorial(n):
     for c in range(1, n+1):
         f *= c
     return f
+
+def formatoMoeda(valor_moeda_def, moeda='R$'):
+    return f'{moeda}{valor_moeda_def}:.2f'.replace('.',',')
