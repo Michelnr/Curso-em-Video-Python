@@ -2,12 +2,12 @@
 # consiga mostrar os números como um valor monetário formatado.
 from modulos import numeros
 
-valor_moeda = int(input('Informe o valor: R$'))
+valor_moeda = float(input('Informe o valor: R$'))
 
 # aumento o valor em 10%
-valor_moeda_mais10 = valor_moeda
-numeros.aumentar10(valor_moeda_mais10)
-print(f'{valor_moeda} + 10% = {numeros.formatoMoeda(valor_moeda_mais10):.2f}')
+numeros.aumentar10(valor_moeda)
+print(valor_moeda)
+print(f'{numeros.formatoMoeda(valor_moeda)} + 10% = {numeros.formatoMoeda(valor_moeda_mais10)}')
 
 # diminui o valor em 10%
 valor_moeda_menos10 = valor_moeda
