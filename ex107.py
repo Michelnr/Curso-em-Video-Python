@@ -6,10 +6,10 @@ from modulos.numeros import moeda
 valor_moeda = float(input('Informe o valor: R$'))
 
 # aumento o valor em 10%
-print(f'R${valor_moeda} + 10% = R${moeda.aumentar10(valor_moeda):.2f}')
+print(f'R${valor_moeda} + 10% = R${moeda.aumentar10(valor_moeda, 10):.2f}')
 
 # diminui o valor em 10%
-print(f'R${valor_moeda} - 10% = R${moeda.diminui10(valor_moeda):.2f}')
+print(f'R${valor_moeda} - 10% = R${moeda.diminui10(valor_moeda, 10):.2f}')
 
 # dobre o valor
 print(f'R${valor_moeda} * 2 = R${moeda.dobro(valor_moeda):.2f}')

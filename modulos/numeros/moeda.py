@@ -1,16 +1,17 @@
-def aumentar10(valor_moeda_def):
+def aumentar10(valor_moeda_def, porcentagem):
     '''
     Recebe o valor e retorna o valor com mais 10%
     :return: sim
     '''
-    return valor_moeda_def * 1.10
+    return  valor_moeda_def + (valor_moeda_def * (porcentagem/100))
 
-def diminui10(valor_moeda_def):
+def diminui10(valor_moeda_def, porcentagem):
     '''
     Recebe o valor e retorna o valor com menos 10%
     :return: sim
     '''
-    return valor_moeda_def * 0.9
+    multiplicador = 1 - (porcentagem / 100)
+    return valor_moeda_def * multiplicador
 
 def dobro(valor_moeda_def):
     '''
