@@ -2,3 +2,4 @@
 .venv
 .vscode
 teste.py
+__pycache__
