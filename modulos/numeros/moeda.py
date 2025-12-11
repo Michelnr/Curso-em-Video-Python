@@ -1,6 +1,6 @@
 def resumo(valor_moeda_def, porcentagemAumenta, porcentagemDiminui):
     print(30*'-')
-    print('      RESUMO DO VALOR')
+    print('RESUMO DO VALOR'.center(30))
     print(30*'-')
     print(f'Valor analisado:    ', formatoMoeda(valor_moeda_def))
     print(f'{porcentagemAumenta}% de aumento:     ', aumentar10(valor_moeda_def, porcentagemAumenta, formato=True))
