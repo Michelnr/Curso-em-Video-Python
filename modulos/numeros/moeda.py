@@ -1,3 +1,15 @@
+def resumo(valor_moeda_def, porcentagemAumenta, porcentagemDiminui):
+    print(30*'-')
+    print('      RESUMO DO VALOR')
+    print(30*'-')
+    print(f'Valor analisado:    ', formatoMoeda(valor_moeda_def))
+    print(f'{porcentagemAumenta}% de aumento:     ', aumentar10(valor_moeda_def, porcentagemAumenta, formato=True))
+    print(f'{porcentagemDiminui}% de redução:     ', diminui10(valor_moeda_def, porcentagemDiminui, formato=True))
+    print(f'Dobro do valor:     ', dobro(valor_moeda_def, formato=True))
+    print(f'Triplo do valor:    ', triplo(valor_moeda_def, formato=True))
+    print(f'Metade do valor:    ', metade(valor_moeda_def, formato=True))
+    print(30*'-')
+
 def aumentar10(valor_moeda_def, porcentagem, formato=False):
     '''
     Recebe o valor e retorna o valor com mais 10%
