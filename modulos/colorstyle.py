@@ -1,5 +1,5 @@
 # Modulo para facilitar a mudança de cores e edição de strings.
-def colorstyle(texto, style='reset', color='reset'):
+def colorStyle(texto, style='reset', color='reset'):
     '''
     Esse modulo visa facilitar a mudança de cores e estilos de textos no terminal.
     
