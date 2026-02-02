@@ -4,27 +4,6 @@
 # 1 - Cadastrar novas pessoas
 # 2 - Listar todas as pessoas
 
-from modulos.ex115.formatação import texto
+from modulos.ex115.interface import *
 
-def menu():
-    while True:
-        texto('MENU PRINCIPAL')
-        print('1 - Cadastre uma pessoa')
-        print('2 - Listar pessoas')
-        print('3 - Sair do sistema')
-
-        escolha_menu = int(input('Qual a sua escolha? '))
-        if escolha_menu not in [1,2,3]:
-            print('Informe apenas os números do menu')
-            continue
-
-        if escolha_menu == 1:
-            texto('OPÇÃO 1 - Cadastrar pessoa')
-            cadastrar()
-        elif escolha_menu == 2:
-            texto('OPÇÃO 2 - Listar pessoas')
-        else:
-            texto('Saindo do sistema ... Até logo')
-            break
-
-menu()
+interface()
