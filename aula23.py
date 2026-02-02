@@ -4,9 +4,9 @@ try:
     b = int(input('Denominador: '))
     r = a / b
 except (ValueError, TypeError):
-    print('Tivemos um problema com os tipos de dados que você digitou.')
+    print('Tivemos um problema com os tipos de dados, digite apenas números.')
 except ZeroDivisionError:
-    print('Não é possivel dividir um número por zero!')
+    print('Não é possível dividir um número por zero!')
 except KeyboardInterrupt:
     print('O usuário preferiu não informar os dados!')
 except Exception as erro:
